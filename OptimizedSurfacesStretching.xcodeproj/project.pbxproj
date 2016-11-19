@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37490C6A1D8CD5990098A6A9 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37490C691D8CD5990098A6A9 /* SDL2.framework */; };
+		37490C6E1D8CD5E80098A6A9 /* 05_optimized_surface_loading_and_soft_stretching.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37490C6D1D8CD5E80098A6A9 /* 05_optimized_surface_loading_and_soft_stretching.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		37490C5D1D8CD5860098A6A9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		37490C5F1D8CD5860098A6A9 /* OptimizedSurfacesStretching */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OptimizedSurfacesStretching; sourceTree = BUILT_PRODUCTS_DIR; };
+		37490C691D8CD5990098A6A9 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
+		37490C6D1D8CD5E80098A6A9 /* 05_optimized_surface_loading_and_soft_stretching.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = 05_optimized_surface_loading_and_soft_stretching.cpp; path = OptimizedSurfacesStretching/05_optimized_surface_loading_and_soft_stretching.cpp; sourceTree = SOURCE_ROOT; };
+		37490C6F1D8CD70E0098A6A9 /* stretch.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = stretch.bmp; sourceTree = "<group>"; };
+		379F541A1D8DC43D007FE95B /* catface.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = catface.bmp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37490C5C1D8CD5860098A6A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37490C6A1D8CD5990098A6A9 /* SDL2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37490C561D8CD5860098A6A9 = {
+			isa = PBXGroup;
+			children = (
+				37490C611D8CD5860098A6A9 /* OptimizedSurfacesStretching */,
+				37490C601D8CD5860098A6A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37490C601D8CD5860098A6A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37490C5F1D8CD5860098A6A9 /* OptimizedSurfacesStretching */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37490C611D8CD5860098A6A9 /* OptimizedSurfacesStretching */ = {
+			isa = PBXGroup;
+			children = (
+				379F541A1D8DC43D007FE95B /* catface.bmp */,
+				37490C6F1D8CD70E0098A6A9 /* stretch.bmp */,
+				37490C6D1D8CD5E80098A6A9 /* 05_optimized_surface_loading_and_soft_stretching.cpp */,
+				37490C691D8CD5990098A6A9 /* SDL2.framework */,
+			);
+			path = OptimizedSurfacesStretching;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37490C5E1D8CD5860098A6A9 /* OptimizedSurfacesStretching */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37490C661D8CD5860098A6A9 /* Build configuration list for PBXNativeTarget "OptimizedSurfacesStretching" */;
+			buildPhases = (
+				37490C5B1D8CD5860098A6A9 /* Sources */,
+				37490C5C1D8CD5860098A6A9 /* Frameworks */,
+				37490C5D1D8CD5860098A6A9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OptimizedSurfacesStretching;
+			productName = OptimizedSurfacesStretching;
+			productReference = 37490C5F1D8CD5860098A6A9 /* OptimizedSurfacesStretching */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37490C571D8CD5860098A6A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Emily Abrash";
+				TargetAttributes = {
+					37490C5E1D8CD5860098A6A9 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 37490C5A1D8CD5860098A6A9 /* Build configuration list for PBXProject "OptimizedSurfacesStretching" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 37490C561D8CD5860098A6A9;
+			productRefGroup = 37490C601D8CD5860098A6A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37490C5E1D8CD5860098A6A9 /* OptimizedSurfacesStretching */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37490C5B1D8CD5860098A6A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37490C6E1D8CD5E80098A6A9 /* 05_optimized_surface_loading_and_soft_stretching.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		37490C641D8CD5860098A6A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		37490C651D8CD5860098A6A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		37490C671D8CD5860098A6A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		37490C681D8CD5860098A6A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37490C5A1D8CD5860098A6A9 /* Build configuration list for PBXProject "OptimizedSurfacesStretching" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37490C641D8CD5860098A6A9 /* Debug */,
+				37490C651D8CD5860098A6A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37490C661D8CD5860098A6A9 /* Build configuration list for PBXNativeTarget "OptimizedSurfacesStretching" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37490C671D8CD5860098A6A9 /* Debug */,
+				37490C681D8CD5860098A6A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37490C571D8CD5860098A6A9 /* Project object */;
+}
